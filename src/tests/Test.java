@@ -34,8 +34,8 @@ public class Test {
 	public void testIntegrationHibernateEtSpring() {
 		contactDAO.addContactInGroup(7, 3);
 		contactDAO.addContactInGroup(7, 1);
-		Account acc = accountDAO.checkConnection("test", "test");
-		contactDAO.getContactByCreator(acc);
+	/*	Account acc = accountDAO.checkConnection("test", "test");
+		contactDAO.getContactByCreator(acc);*/
 		/*Contact c =contactDAO.getContactById(7);
 		PhoneNumberDAO pnd = new PhoneNumberDAO();
 		PhoneNumber pn = pnd.createPhoneNumber("tel", "06885563", c);
